@@ -1,123 +1,145 @@
 package com.horizon.home;
 
-import android.animation.ObjectAnimator;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.RectF;
 import android.graphics.drawable.GradientDrawable;
 import android.view.View;
-import android.view.animation.LinearInterpolator;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
+import android.view.animation.DecelerateInterpolator;
 
-/** Full-screen artwork that slowly drifts (Ken Burns) and cross-fades between titles. */
-final class HeroWall extends FrameLayout implements Glass.Source {
-    private final ImageView[] iv = new ImageView[2];
-    private final ObjectAnimator[] drift = new ObjectAnimator[2];
-    private int front = -1;
-    private int flip;
-    private final View fallback;
-    private long driftMs = 14000;
+/**
+ * Full-screen artwork rendered in one canvas.
+ *
+ * Keeping both pictures inside a single View avoids the brief texture/layer replacement flash that
+ * some Android TV compositors produce when multiple transparent ImageViews overlap or are recycled.
+ */
+final class HeroWall extends View implements Glass.Source {
+    private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.FILTER_BITMAP_FLAG | Paint.DITHER_FLAG);
+    private final Rect src = new Rect();
+    private final RectF dst = new RectF();
+    private final GradientDrawable fallback;
+
+    private Bitmap current;
+    private Bitmap incoming;
+    private Bitmap pending;
+    private ValueAnimator fade;
+    private float mix;
 
     HeroWall(Context c) {
         super(c);
         setBackgroundColor(Color.BLACK);
-        GradientDrawable g = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
+        fallback = new GradientDrawable(GradientDrawable.Orientation.TL_BR,
                 new int[] {0xFF06070C, 0xFF151A3A, 0xFF3A1D3F, 0xFF8A4A2A});
-        fallback = new View(c);
-        fallback.setBackground(g);
-        addView(fallback, new LayoutParams(U.MATCH, U.MATCH));
-        for (int i = 0; i < 2; i++) {
-            iv[i] = new ImageView(c);
-            iv[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
-            iv[i].setAlpha(0f);
-            iv[i].setPivotX(U.W / 2f);
-            iv[i].setPivotY(U.H / 2f);
-            addView(iv[i], new LayoutParams(U.MATCH, U.MATCH));
-        }
     }
 
-    void setDriftMs(long ms) { driftMs = ms; }
-
-    boolean hasImage() { return front >= 0; }
+    boolean hasImage() { return current != null || incoming != null; }
 
     void show(Bitmap b) {
-        if (b == null) return;
-        int next = front < 0 ? 0 : 1 - front;
-        final ImageView n = iv[next];
-        n.animate().cancel();
-        n.setImageBitmap(b);
-        n.bringToFront();
-        n.setAlpha(0f);
-        n.animate().alpha(1f).setDuration(front < 0 ? 500 : 700).start();
-        if (drift[next] != null) drift[next].cancel();
-        flip++;
-        n.setScaleX(1f);
-        n.setScaleY(1f);
-        n.setTranslationX(0);
-        n.setTranslationY(0);
-        driftView = n;
-        driftStart = System.currentTimeMillis() + 3000; // rest on the picture a moment first
-        removeCallbacks(driftTick);
-        postDelayed(driftTick, 3000);
-        final int old = front;
-        front = next;
-        if (old >= 0) {
-            final ImageView o = iv[old];
-            postDelayed(() -> {
-                if (front != old) {
-                    o.setAlpha(0f);
-                    o.setImageDrawable(null); // let the old picture's memory go
-                    if (drift[old] != null) drift[old].cancel();
+        if (b == null || b.isRecycled()) return;
+        if (b == current || b == incoming || b == pending) return;
+
+        if (current == null && incoming == null) {
+            current = b;
+            invalidate();
+            return;
+        }
+
+        // Never replace a bitmap that is currently being drawn. During fast navigation retain only
+        // the latest requested picture, then blend to it after the active fade finishes.
+        if (fade != null && fade.isRunning()) {
+            pending = b;
+            return;
+        }
+        beginFade(b);
+    }
+
+    private void beginFade(Bitmap b) {
+        incoming = b;
+        mix = 0f;
+        invalidate(); // Upload/draw the new texture invisibly while the current image remains intact.
+
+        fade = ValueAnimator.ofFloat(0f, 1f);
+        fade.setDuration(520);
+        fade.setInterpolator(new DecelerateInterpolator(1.4f));
+        fade.addUpdateListener(a -> {
+            mix = (Float) a.getAnimatedValue();
+            invalidate();
+        });
+        fade.addListener(new AnimatorListenerAdapter() {
+            private boolean cancelled;
+
+            @Override public void onAnimationCancel(Animator animation) { cancelled = true; }
+
+            @Override public void onAnimationEnd(Animator animation) {
+                if (cancelled) return;
+                current = incoming;
+                incoming = null;
+                mix = 0f;
+                fade = null;
+                invalidate();
+
+                Bitmap next = pending;
+                pending = null;
+                if (next != null && next != current && !next.isRecycled()) {
+                    // Starting on the following frame gives the completed image a stable presented
+                    // frame and avoids back-to-back texture uploads on slower TV GPUs.
+                    postOnAnimation(() -> beginFade(next));
                 }
-            }, 760);
-        }
+            }
+        });
+        // Let the zero-alpha invalidation reach the render thread before animation values advance.
+        postOnAnimation(() -> {
+            if (fade != null && !fade.isStarted()) fade.start();
+        });
     }
 
-    private ImageView driftView;
-    private long driftStart;
-    private boolean paused;
-
-    /** Slow pan-and-zoom at 30 fps (it moves far less than a pixel a frame, so 30 looks the same). */
-    private final Runnable driftTick = new Runnable() {
-        @Override public void run() {
-            if (paused || driftView == null) return;
-            long cycle = Math.max(4000, driftMs * 2);
-            float t = ((System.currentTimeMillis() - driftStart) % cycle) / (float) cycle;
-            float d = t < 0.5f ? t * 2f : 2f - t * 2f;            // 0 -> 1 -> 0
-            d = d * d * (3f - 2f * d);                              // ease in/out
-            float z = 1f + 0.08f * d;
-            driftView.setScaleX(z);
-            driftView.setScaleY(z);
-            driftView.setTranslationX(-getWidth() * 0.035f * d);
-            driftView.setTranslationY(-getHeight() * 0.012f * d);
-            postDelayed(this, 33);
-        }
-    };
-
-    private long pausedAt;
-
-    void pause() {
-        if (!paused) pausedAt = System.currentTimeMillis();
-        paused = true;
-        removeCallbacks(driftTick);
+    @Override protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        fallback.setBounds(0, 0, getWidth(), getHeight());
+        fallback.draw(canvas);
+        drawCover(canvas, current, 255);
+        if (incoming != null) drawCover(canvas, incoming, Math.round(255f * mix));
     }
 
-    void resume() {
-        if (paused && pausedAt > 0) driftStart += System.currentTimeMillis() - pausedAt;
-        pausedAt = 0;
-        paused = false;
-        removeCallbacks(driftTick);
-        if (driftView != null) post(driftTick);
+    private void drawCover(Canvas canvas, Bitmap bitmap, int alpha) {
+        if (bitmap == null || bitmap.isRecycled() || alpha <= 0 || getWidth() <= 0 || getHeight() <= 0) return;
+        int bw = bitmap.getWidth();
+        int bh = bitmap.getHeight();
+        float scale = Math.max(getWidth() / (float) bw, getHeight() / (float) bh);
+        float shownW = getWidth() / scale;
+        float shownH = getHeight() / scale;
+        int left = Math.max(0, Math.round((bw - shownW) * 0.5f));
+        int top = Math.max(0, Math.round((bh - shownH) * 0.5f));
+        int right = Math.min(bw, Math.round(left + shownW));
+        int bottom = Math.min(bh, Math.round(top + shownH));
+        src.set(left, top, right, bottom);
+        dst.set(0, 0, getWidth(), getHeight());
+        paint.setAlpha(alpha);
+        canvas.drawBitmap(bitmap, src, dst, paint);
+    }
+
+    void pause() {}
+    void resume() {}
+
+    @Override protected void onDetachedFromWindow() {
+        if (fade != null) fade.cancel();
+        fade = null;
+        super.onDetachedFromWindow();
     }
 
     @Override
-    public boolean capture(Bitmap dst, Canvas canvas) {
+    public boolean capture(Bitmap bitmap, Canvas canvas) {
         if (getWidth() == 0) return false;
         canvas.drawColor(Color.BLACK);
         canvas.save();
-        canvas.scale(dst.getWidth() / (float) getWidth(), dst.getHeight() / (float) getHeight());
+        canvas.scale(bitmap.getWidth() / (float) getWidth(), bitmap.getHeight() / (float) getHeight());
         try {
             draw(canvas);
         } catch (Throwable t) {

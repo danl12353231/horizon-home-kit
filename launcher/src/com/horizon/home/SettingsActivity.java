@@ -3,13 +3,13 @@ package com.horizon.home;
 import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.GradientDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.text.InputType;
@@ -79,7 +79,7 @@ public class SettingsActivity extends Activity {
 
         TextView h = V.text(this, "horizon", 26, 800, 0xFFFFFFFF);
         list.addView(h);
-        TextView sub = U.text(this, "Ad-free by design · no tracking · your XGIMI home", 13, 0x99FFFFFF, U.REG);
+        TextView sub = U.text(this, "Ad-free by design · no tracking · your TV home", 13, 0x99FFFFFF, U.REG);
         list.addView(sub, U.llp(U.WRAP, U.WRAP, 0, 8, 0, 6));
 
         section("ARTWORK");
@@ -95,22 +95,24 @@ public class SettingsActivity extends Activity {
         toggle("Colours from artwork", "The accent glows in the colours of what's on screen", "art_colours", true);
         toggle("Weather", "Temperature next to the clock (Open-Meteo, no account)", "weather", true);
 
-        section("PROJECTOR CHANGES");
+        section("TV SYSTEM CHANGES");
         action("Ad & tracker blocking", () -> dnsOn() ? "On \u00b7 NextDNS" : "Off", () -> {
             final boolean on = dnsOn();
             confirmRun(on ? "Turn off ad & tracker blocking?" : "Turn ad & tracker blocking back on?",
-                    on ? "The projector goes back to its normal DNS. Ads and trackers will load again."
+                    on ? "The TV goes back to its normal DNS. Ads and trackers will load again."
                        : "Lookups are encrypted and filtered by your NextDNS profile again.",
                     on ? "settings delete global private_dns_mode; settings delete global private_dns_specifier"
                        : "settings put global private_dns_specifier " + NextDnsStats.profile(this) + ".dns.nextdns.io; settings put global private_dns_mode hostname");
         });
-        action("Power button", () -> fullOff() ? "Full shutdown \u00b7 logo on every start" : "Quick standby", () -> {
-            final boolean full = fullOff();
-            confirmRun(full ? "Switch Power Off to quick standby?" : "Make Power Off a full shutdown?",
-                    full ? "Turning on takes about 2 seconds. The XGIMI logo only plays after a full start (XGIMI does one on every 15th power-off)."
-                         : "Every Power Off uses XGIMI's own shutdown (cover closes). The XGIMI logo plays each time, but starting takes about 30\u201340 seconds.",
-                    full ? "settings delete system power_key_definition" : "settings put system power_key_definition 1");
-        });
+        if (isXgimi()) {
+            action("Power button", () -> fullOff() ? "Full shutdown \u00b7 logo on every start" : "Quick standby", () -> {
+                final boolean full = fullOff();
+                confirmRun(full ? "Switch Power Off to quick standby?" : "Make Power Off a full shutdown?",
+                        full ? "Turning on takes about 2 seconds. The XGIMI logo only plays after a full start (XGIMI does one on every 15th power-off)."
+                             : "Every Power Off uses XGIMI's own shutdown (cover closes). The XGIMI logo plays each time, but starting takes about 30\u201340 seconds.",
+                        full ? "settings delete system power_key_definition" : "settings put system power_key_definition 1");
+            });
+        }
         action("Animation speed", () -> fastAnim() ? "Fast (0.5\u00d7)" : "Normal", () -> {
             final boolean fast = fastAnim();
             confirmRun(fast ? "Back to normal animation speed?" : "Use fast animations?",
@@ -118,28 +120,27 @@ public class SettingsActivity extends Activity {
                     fast ? "settings put global window_animation_scale 1.0; settings put global transition_animation_scale 1.0; settings delete global animator_duration_scale"
                          : "settings put global window_animation_scale 0.5; settings put global transition_animation_scale 0.5; settings put global animator_duration_scale 0.5");
         });
-        action("Google TV recommendations", () -> enabled(TVREC) ? "On" : "Off", () -> {
-            final boolean on = enabled(TVREC);
-            confirmRun(on ? "Turn off Google TV recommendations?" : "Turn Google TV recommendations back on?",
-                    "A background service only Google's home screen uses. Off saves memory.",
-                    (on ? "pm disable-user --user 0 " : "pm enable ") + TVREC);
-        });
-        action("Home screen", () -> horizonIsHome() ? "Horizon" : "Google TV", () -> {
+        if (installed(TVREC)) {
+            action("Google TV recommendations", () -> enabled(TVREC) ? "On" : "Off", () -> {
+                final boolean on = enabled(TVREC);
+                confirmRun(on ? "Turn off Google TV recommendations?" : "Turn Google TV recommendations back on?",
+                        "A background service only Google's home screen uses. Off saves memory.",
+                        (on ? "pm disable-user --user 0 " : "pm enable ") + TVREC);
+            });
+        }
+        action("Home screen", () -> horizonIsHome() ? "Horizon" : originalHomeLabel(), () -> {
             if (horizonIsHome()) {
-                confirmRun("Go back to the Google TV home screen?",
-                        "Turns Google's home and its recommendations back on and makes it the home screen. "
+                String original = originalHomeComponent();
+                confirmRun("Go back to " + originalHomeLabel() + "?",
+                        "Makes " + originalHomeLabel() + " the TV home screen again. "
                                 + "Horizon stays installed: open it from your apps any time to switch back.",
-                        "pm enable " + TVLAUNCHER + "; pm enable " + TVREC
-                                + "; cmd package set-home-activity " + TVLAUNCHER + "/.MainActivity"
-                                + "; settings delete secure enabled_accessibility_services; settings put secure accessibility_enabled 0"
+                        "pm enable " + original.substring(0, original.indexOf('/'))
+                                + "; cmd package set-home-activity " + original
                                 + "; am start -a android.intent.action.MAIN -c android.intent.category.HOME");
             } else {
                 confirmRun("Make Horizon your home screen?",
-                        "Switches Google's home off (it stays installed) and makes the Home button open Horizon.",
+                        "Makes the Home button open Horizon. Your current launcher stays installed.",
                         "cmd package set-home-activity " + getPackageName() + "/.HomeActivity"
-                                + "; settings put secure enabled_accessibility_services " + getPackageName() + "/" + getPackageName() + ".HomeButtonService"
-                                + "; settings put secure accessibility_enabled 1"
-                                + "; pm disable-user --user 0 " + TVREC + "; pm disable-user --user 0 " + TVLAUNCHER
                                 + "; am start -n " + getPackageName() + "/.HomeActivity");
             }
         });
@@ -154,8 +155,8 @@ public class SettingsActivity extends Activity {
         toggle("Show greeting", null, U.P_GREET, true);
         action("Your name", () -> prefs.getString(U.P_NAME, ""), this::editName);
         action("Show hidden apps again", () -> hiddenCount() + " hidden", this::unhideAll);
-        action("Projector settings", () -> "Picture, keystone, 3D, sound", () -> Apps.start(this, new Intent(Settings.ACTION_SETTINGS)));
-        action("About", () -> "Version " + version() + "  ·  ad-free home for your XGIMI", null);
+        action("TV settings", () -> "Picture, display, sound and device settings", () -> Apps.start(this, new Intent(Settings.ACTION_SETTINGS)));
+        action("About", () -> "Version " + version() + "  ·  ad-free home for your TV", null);
     }
 
     private void installLiveTv() {
@@ -262,7 +263,33 @@ public class SettingsActivity extends Activity {
 
     interface Text { String get(); }
 
-    private static final String TVLAUNCHER = "com.google.android.tvlauncher", TVREC = "com.google.android.tvrecommendations";
+    private static final String TVREC = "com.google.android.tvrecommendations";
+
+    private boolean isXgimi() {
+        return Build.MANUFACTURER != null
+                && Build.MANUFACTURER.toLowerCase(java.util.Locale.ROOT).contains("xgimi");
+    }
+
+    private boolean installed(String pkg) {
+        try {
+            getPackageManager().getApplicationInfo(pkg, 0);
+            return true;
+        } catch (Throwable missing) {
+            return false;
+        }
+    }
+
+    private String originalHomeComponent() {
+        if (installed("com.spocky.projengmenu")) return "com.spocky.projengmenu/.ui.home.MainActivity";
+        if (installed("com.google.android.apps.tv.launcherx")) return "com.google.android.apps.tv.launcherx/.HomeActivity";
+        return "com.google.android.tvlauncher/.MainActivity";
+    }
+
+    private String originalHomeLabel() {
+        if (installed("com.spocky.projengmenu")) return "Projectivy";
+        if (installed("com.google.android.apps.tv.launcherx")) return "Google TV";
+        return "Android TV";
+    }
 
     private boolean dnsOn() {
         return "hostname".equals(Settings.Global.getString(getContentResolver(), "private_dns_mode"));
@@ -291,7 +318,7 @@ public class SettingsActivity extends Activity {
         return r != null && r.activityInfo != null && getPackageName().equals(r.activityInfo.packageName);
     }
 
-    /** Asks first, then runs the shell command on the projector itself (through its network-debugging port). */
+    /** Asks first, then runs the shell command on the TV itself through network debugging. */
     private void confirmRun(String title, String message, final String cmd) {
         new AlertDialog.Builder(this, android.R.style.Theme_DeviceDefault_Dialog_Alert)
                 .setTitle(title)
@@ -304,7 +331,7 @@ public class SettingsActivity extends Activity {
                             if (out == null) {
                                 Toast.makeText(this, "waiting".equals(AdbLocal.state)
                                         ? "Allow the network debugging prompt on screen, then try again"
-                                        : "Couldn't reach the projector's debugging port. Turn on network debugging in Developer options.",
+                                        : "Couldn't reach the TV's debugging port. Turn on network debugging in Developer options.",
                                         Toast.LENGTH_LONG).show();
                             } else {
                                 Toast.makeText(this, "Done", Toast.LENGTH_SHORT).show();
@@ -416,7 +443,7 @@ public class SettingsActivity extends Activity {
         for (final Scene s : Scene.scan(this)) {
             i++;
             final boolean has = s.video != null;
-            final LinearLayout row = rowBase(s.name, has ? null : "Not copied to the projector yet");
+            final LinearLayout row = rowBase(s.name, has ? null : "Not copied to the TV yet");
             ImageView thumb = new ImageView(this);
             thumb.setScaleType(ImageView.ScaleType.CENTER_CROP);
             Ui.rounded(thumb, 6);
@@ -530,9 +557,8 @@ public class SettingsActivity extends Activity {
     }
 
     private void openStockHome() {
-        Intent i = new Intent(Intent.ACTION_MAIN);
-        i.setComponent(new ComponentName("com.google.android.tvlauncher", "com.google.android.tvlauncher.MainActivity"));
-        if (!Apps.start(this, i)) Toast.makeText(this, "Google TV home isn't available", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME);
+        if (!Apps.start(this, i)) Toast.makeText(this, "The TV home screen isn't available", Toast.LENGTH_SHORT).show();
     }
 
     private String version() {
