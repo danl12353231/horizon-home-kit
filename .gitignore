@@ -1,0 +1,7 @@
+# private: your keys and the projector backups never go in git
+windows/config.bat
+windows/backup/
+windows/platform-tools/
+windows/found-projector.txt
+*.apk
+launcher/build/

@@ -1,0 +1,27 @@
+name: Build Horizon Home APK
+on:
+  push:
+    paths: ["launcher/**", ".github/workflows/build-apk.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: "17" }
+      - name: Android SDK pieces
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "build-tools;34.0.0" "platforms;android-30" >/dev/null
+      - name: Build
+        run: BUILD_TOOLS=34.0.0 VERSION_CODE=$((100 + ${{ github.run_number }})) launcher/build.sh
+      - uses: actions/upload-artifact@v4
+        with: { name: HorizonHome, path: launcher/build/HorizonHome.apk }
+      - name: Publish as the "latest" release
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release delete latest -y --cleanup-tag 2>/dev/null || true
+          gh release create latest launcher/build/HorizonHome.apk -t "Horizon Home (latest build)" \
+            -n "Built automatically from commit ${GITHUB_SHA::7}. Install with windows/install-horizon.bat."

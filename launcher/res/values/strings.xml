@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_desc">Lets the remote\'s Home button open Horizon Home. It only sees the Home key and which app is in front; it never reads the screen.</string>
+    <string name="a11y_label">Horizon Home button</string>
+</resources>

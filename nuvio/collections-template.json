@@ -1,0 +1,5086 @@
+[
+ {
+  "title": "Discover",
+  "pinToTop": true,
+  "viewMode": "FOLLOW_LAYOUT",
+  "showAllTab": true,
+  "folders": [
+   {
+    "title": "Desi Media",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://i.postimg.cc/qMq2y2FW/background.jpg",
+    "catalogs": [
+     {
+      "source": "aiostreams-kamino",
+      "type": "movie",
+      "catalog": "6eee3b0.hi_recent_movies"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "movie",
+      "catalog": "6eee3b0.si_recent_movies"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "movie",
+      "catalog": "6eee3b0.pa_recent_movies"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "6eee3b0.hi_recent_series"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "6eee3b0.pa_recent_series"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "6eee3b0.recent_south_hindi_dubbed"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "movie",
+      "catalog": "6eee3b0.hi_popular_movies"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "6eee3b0.hi_popular_series"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "apn1e3b0.apnetv.recent_daily_soap"
+     },
+     {
+      "source": "aiostreams-kamino",
+      "type": "series",
+      "catalog": "apn1e3b0.apnetv.recent_reality"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "movie",
+      "catalog": "flixpatrol-netflix-movies"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "movie",
+      "catalog": "flixpatrol-netflix-movies"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "series",
+      "catalog": "flixpatrol-netflix-series"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "movie",
+      "catalog": "provider-sonyliv-movies"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "series",
+      "catalog": "provider-sonyliv-series"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "movie",
+      "catalog": "tmdb-hi-recent-movie"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "series",
+      "catalog": "tmdb-hi-recent-series"
+     },
+     {
+      "source": "bharat-binge",
+      "type": "series",
+      "catalog": "tmdb-hi-latest_episodes-series"
+     }
+    ]
+   },
+   {
+    "title": "For You",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "catalogs": [
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "series",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     },
+     {
+      "source": "nuvio-personalized",
+      "type": "movie",
+      "catalog": "col_ID"
+     }
+    ]
+   },
+   {
+    "title": "New Movies",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Trending%20_%20New/New%20Movies/New%20Movies_Background.jpg",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "New Series",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6671230f.webp",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Trending Movies",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1934d756.webp",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Trending TV",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/1d5e1036.webp",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Top Streaming Movies",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Top Streaming Series",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/curated/top-rated/backdrops/t2_flat_1080p.jpg",
+    "catalogs": [
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Streaming Services",
+  "pinToTop": true,
+  "viewMode": "FOLLOW_LAYOUT",
+  "showAllTab": true,
+  "folders": [
+   {
+    "title": "Netflix",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/49571953.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/logos/color/213_color_1.png?raw=true",
+    "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/213-netflix/backdrops/t2_flat_1080p.jpg?raw=true",
+    "focusGifUrl": "https://64.media.tumblr.com/9f93a9fc2e02fb466eb02a7d2247cb6e/a5b604d3737fc559-49/s500x750/403804744183922f6091d48139021fc3da22f786.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Apple TV+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4d8f0a8f.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/logos/color/2552_color_1.png?raw=true",
+    "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/backdrops/t2_flat_1080p.jpg?raw=true",
+    "focusGifUrl": "https://64.media.tumblr.com/d717319220a7d26bdaa88e72f6f76889/d9a7a808f588d8f4-63/s500x750/959b0ca57f53153b2ca9adaf414859e45e3734e6.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Hulu",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/3a4d1b46.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/453-hulu/logos/color/453_color_1.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/15-hulu/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/3a7015de27b570e421a0182a66d0a69b/0ec3a7379449b39d-2d/s1280x1920/962f0dcfa0a2458bd6bf923ff47776f2404bf43a.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Prime Video",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/5c86c888.webp",
+    "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/f9b1d40a.webp",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/9-amazon-prime-video/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/5c5ed8bf948c5b3ca63a11544b94c720/55dbe5d6db4b66a5-bf/s500x750/d6686beaab57aa152f1b92a4562f757a1c522a2f.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "AMC+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/amcplus/amcplus-cover.png",
+    "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/526-amc/logos/color/4661_amc_1.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/526-amc/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/amcplus/amcplus-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Crave",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-cover.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-backdrop.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/crave/crave-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Criterion",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/criterion-channel/criterion-channel-cover.png",
+    "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/258-criterion-channel/logos/white/258_white_1.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/258-criterion-channel/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/criterion-channel/criterion-channel-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Crunchyroll",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/129a4038.webp",
+    "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Crunchyroll_logo_2024.png/960px-Crunchyroll_logo_2024.png?_=20240720022613",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/283-crunchyroll/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://cdn.dribbble.com/userupload/42119533/file/original-3c24d9649543096949cc4262451501b7.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Curiosity Stream",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/curiosity-stream/curiosity-stream-cover.png",
+    "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CuriosityStream.svg/960px-CuriosityStream.svg.png?_=20200418093832",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dce3256c.webp",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/curiosity-stream/curiosity-stream-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Discovery+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/dbed63f2.webp",
+    "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/4676e4ff.webp",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/8815e841.webp",
+    "focusGifUrl": "https://max-streams.gleeze.com/images/Discovery.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Disney+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b8c0d25b.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/2739-disney/logos/color/2739_color_4.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/337-disney-plus/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/ca6dc6d4e8a260c0c5f40c47c7334e57/eb71329b4dc482d5-50/s500x750/e9e82c5bca839be289f3d87863141ebf6d7fca28.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Hayu",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-cover.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-backdrop.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/hayu/hayu-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "HBO Max",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/b59babf1.webp",
+    "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/6e4c10d3.webp",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/1899-hbo-max/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/cca7a86d443a0bc88536a2ad6ce72aec/b495f88d5c1df470-a2/s640x960/4cb9b614191d17d02c946b4ca59548cd333c06fd.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Magellan",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-cover.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-backdrop.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/magellan/magellan-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "MGM+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d490e713.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/6219-mgm/logos/color/6219_color_1.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/34-mgm-plus/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/9f43b185411e18d71444c9a5a5a79632/5d68ae94e9917470-70/s500x750/0871e87c17045759735ef64c26703c71b585bfb0.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Mubi",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/7c4bd708.webp",
+    "titleLogoUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/204957-mubi/logos/white/204957_white_2.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/refs/heads/main/collections/companies/204957-mubi/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/mubi/mubi-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Paramount+",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/refs/heads/main/art/streaming-services/paramount-plus/paramount-plus-cover.png",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/4330-paramount/logos/color/4330_color_2.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/2303-paramount-plus-premium/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/refs/heads/main/art/streaming-services/paramount-plus/paramount-plus-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Peacock",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/970b675f.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/networks/3353-peacock/logos/color/3353_color_1.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/386-peacock-premium/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/a378bf124ed7d00c8d7430cb8a9ae0cc/9e0da9dbc32641f6-b2/s1280x1920/e8c0ba2f6aadae5b6f532a177926528e94b04d68.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Pluto TV",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/pluto-tv/pluto-tv-cover.png",
+    "titleLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Pluto_TV_logo_2024.svg/500px-Pluto_TV_logo_2024.svg.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/providers/300-pluto-tv/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/pluto-tv/pluto-tv-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Shudder",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/99e24ce1.webp",
+    "titleLogoUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/companies/142877-shudder/logos/color/142877_color_1.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/99-shudder/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/luckynumb3rs/stremio-perfect-setup/refs/heads/main/collections/streaming/focused/shudder.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Starz",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/9e92f9b6.webp",
+    "titleLogoUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/262762fd.webp",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/providers/43-starz/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://64.media.tumblr.com/81fe52878aad139bc7b4ff5db7efc766/1e7a62d9e4b13b7a-a2/s500x750/740d23b1e14a96d02282d62190ee61e2a30aed4d.gifv",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Tubi TV",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/tubi/tubi-cover.png",
+    "titleLogoUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/153734-tubi/logos/color/153734_color_1.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/collections/companies/153734-tubi/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-art/main/art/streaming-services/tubi/tubi-hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "trakt",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Genres",
+  "pinToTop": true,
+  "viewMode": "FOLLOW_LAYOUT",
+  "showAllTab": true,
+  "folders": [
+   {
+    "title": "Action",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Action/Action_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/action.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/28-action/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Action/Action_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Adventure",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Adventure/Adventure_Base.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/12-adventure/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Adventure/Adventure_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Animation",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Animation/Animation_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/animation.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/16-animation/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Animation/Animation_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Anime",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Anime/Anime_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/anime.png?raw=true",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/692aa010.webp",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Anime/Anime_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Comedy",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Comedy/Comedy_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/comedy.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/35-comedy/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Comedy/Comedy_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Crime",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Crime/Crime_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/crime.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/80-crime/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Crime/Crime_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Documentary",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Documentary/Documentary_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/documentary.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/99-documentary/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Documentary/Documentary_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Drama",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Drama/Drama_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/drama.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/18-drama/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Drama/Drama_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Family",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Family/Family_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/family.png?raw=true",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/d64ad84f.webp",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Family/Family_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Fantasy",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Fantasy/Fantasy_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/fantasy.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/14-fantasy/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Fantasy/Fantasy_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "History",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/History/History_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/history.png?raw=true",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/2653fb30.webp",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/History/History_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Horror",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Horror/Horror_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/horror.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/27-horror/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Horror/Horror_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Mystery",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Mystery/Mystery_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/mystery.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/9648-mystery/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Mystery/Mystery_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Reality TV",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Reality%20TV/Reality_TV_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/reality.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/10764-reality/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Reality%20TV/Reality_TV_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Romance",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Romance/Romance_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/romance.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/10749-romance/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Romance/Romance_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Romantic Comedy",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Romantic%20Comedy/Romantic_Comedy_Base.png",
+    "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/genres/10749-romance/backdrops/t2_flat_1080p.jpg?raw=true",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Romantic%20Comedy/Romantic_Comedy_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Science Fiction",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Science%20Fiction/Science_Fiction_Base.png",
+    "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/genres/878-science-fiction/backdrops/t2_flat_1080p.jpg?raw=true",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Science%20Fiction/Science_Fiction_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Stand-Up Comedy",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Stand-Up%20Comedy/Stand_Up_Comedy_Base.png",
+    "heroBackdropUrl": "https://imkaptain.github.io/nuvio-assets/assets/images/c1aaed43.webp",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Stand-Up%20Comedy/Stand_Up_Comedy_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Thriller",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Thriller/Thriller_Base.png",
+    "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/thriller.png?raw=true",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/53-thriller/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Thriller/Thriller_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "War",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/War/War_Base.png",
+    "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/war.png",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/bramst0ne/prism-wallpapers/main/collections/genres/10768-war-politics/backdrops/t2_flat_1080p.jpg",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/War/War_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   },
+   {
+    "title": "Western",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Western/Western_Base.png",
+    "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/war.png",
+    "heroBackdropUrl": "https://github.com/bramst0ne/prism-wallpapers/blob/main/collections/genres/37-western/backdrops/t2_flat_1080p.jpg?raw=true",
+    "focusGifUrl": "https://raw.githubusercontent.com/ImKaptain/nuvio-assets/main/Genres/Western/Western_Hover.gif",
+    "catalogs": [
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     },
+     {
+      "source": "tmdb",
+      "catalog": ""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Anime",
+  "pinToTop": true,
+  "viewMode": "FOLLOW_LAYOUT",
+  "showAllTab": true,
+  "folders": [
+   {
+    "title": "Latest Release",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://i.postimg.cc/xd7RHS0J/DERNIERS-AJOUTS(4).png",
+    "catalogs": [
+     {
+      "source": "aio-metadata",
+      "type": "movie",
+      "catalog": "mdblist.2483"
+     },
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.2472"
+     }
+    ]
+   },
+   {
+    "title": "Popular",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://i.postimg.cc/j5L10XjG/DERNIERS-AJOUTS(1).png",
+    "catalogs": [
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.88469"
+     },
+     {
+      "source": "aio-metadata",
+      "type": "movie",
+      "catalog": "mdblist.88468"
+     }
+    ]
+   },
+   {
+    "title": "Most Watched",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://i.postimg.cc/ydkG4PNG/DERNIERS-AJOUTS(2).png",
+    "catalogs": [
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.161995"
+     },
+     {
+      "source": "aio-metadata",
+      "type": "movie",
+      "catalog": "mdblist.161994"
+     },
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.13210"
+     }
+    ]
+   },
+   {
+    "title": "Upcoming",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://i.postimg.cc/k4BH3c5h/DERNIERS-AJOUTS(3).png",
+    "catalogs": [
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.12244"
+     }
+    ]
+   },
+   {
+    "title": "Dubbed Only",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://i.postimg.cc/fLFtbwfH/DERNIERS-AJOUTS(6).png",
+    "catalogs": [
+     {
+      "source": "aio-metadata",
+      "type": "series",
+      "catalog": "mdblist.50738"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "title": "Formats",
+  "pinToTop": true,
+  "viewMode": "FOLLOW_LAYOUT",
+  "showAllTab": false,
+  "folders": [
+   {
+    "title": "IMAX",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Sh3VTkTdUMV6H7tWb9MjPbA5IPgWWQ-HUYb9LVFsc1zc1ivxZMkOdmY8&s=10",
+    "titleLogoUrl": "https://brand.imax.com/wp-content/uploads/2025/07/White-on-Blue-1.jpg",
+    "heroBackdropUrl": "https://t3.ftcdn.net/jpg/16/09/65/14/360_F_1609651417_UsCTsa7hAoJnRl9211lVi93qIXSJ8PMF.jpg",
+    "focusGifUrl": "https://media1.giphy.com/media/IhTwN3Gj090SOofvH4/source.gif",
+    "catalogs": [
+     {
+      "source": "mdblist",
+      "type": "movie",
+      "catalog": "imax-indian-movie"
+     },
+     {
+      "source": "mdblist",
+      "type": "movie",
+      "catalog": "external-168285-movie"
+     }
+    ]
+   },
+   {
+    "title": "3D",
+    "tileShape": "LANDSCAPE",
+    "hideTitle": true,
+    "coverImageUrl": "https://media.licdn.com/dms/image/v2/C5112AQGgj35rbcVpuw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1585571281362?e=2147483647&v=beta&t=OKjZQYM-1TkTJ7Xayf-lelKxviylYe7Q2mYswBhWSxs",
+    "titleLogoUrl": "https://media.licdn.com/dms/image/v2/C5112AQGgj35rbcVpuw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1585571281362?e=2147483647&v=beta&t=OKjZQYM-1TkTJ7Xayf-lelKxviylYe7Q2mYswBhWSxs",
+    "heroBackdropUrl": "https://media.tenor.com/8gBBjeWlbowAAAAM/nouns-nounsdao.gif",
+    "focusGifUrl": "https://media.tenor.com/8gBBjeWlbowAAAAM/nouns-nounsdao.gif",
+    "catalogs": [
+     {
+      "source": "mdblist",
+      "type": "movie",
+      "catalog": "3d-indian-movie"
+     },
+     {
+      "source": "mdblist",
+      "type": "movie",
+      "catalog": "3d-anime-movie"
+     },
+     {
+      "source": "mdblist",
+      "type": "movie",
+      "catalog": "external-168289-movie"
+     }
+    ]
+   }
+  ]
+ }
+]
